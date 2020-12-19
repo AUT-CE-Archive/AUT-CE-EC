@@ -1,2 +1,2 @@
 # AUT-CE-EC
-A repository for my Electronic Circuits course
+A repository for Electronic Circuits course in Amirkabir University of Technology
