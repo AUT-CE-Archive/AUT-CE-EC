@@ -1,0 +1,7 @@
+* source EC_PROJECT_3_PART_2
+R_R4         0 N00081  2  
+R_R5         N00299 N00179  4  
+E_E1         N00299 0 N00081 0 3
+V_V1         N00081 0 DC 0Vdc AC 30Aac 
+C_C1         N00081 N00179  0.2  
+L_L1         0 N00179  2  

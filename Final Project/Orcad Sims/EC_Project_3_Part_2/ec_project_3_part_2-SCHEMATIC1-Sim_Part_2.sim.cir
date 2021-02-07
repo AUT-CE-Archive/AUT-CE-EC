@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC1-Sim_Part_2"  [ E:\Installation Root\Orcad 9.2\Projects\EC_Project_3_Part_2\ec_project_3_part_2-schematic1-sim_part_2.sim ] 
+
+** Creating circuit file "ec_project_3_part_2-schematic1-sim_part_2.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\installation root\orcad 9.2\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 0.001 1
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ec_project_3_part_2-SCHEMATIC1.net" 
+
+
+.END

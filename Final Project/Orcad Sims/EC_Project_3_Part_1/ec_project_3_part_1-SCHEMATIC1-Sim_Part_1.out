@@ -1,0 +1,74 @@
+
+**** 02/07/21 10:44:00 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Sim_Part_1"  [ E:\Installation Root\Orcad 9.2\Projects\EC_Project_3_Part_1\ec_project_3_part_1-SCHEMATIC1-Si
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ec_project_3_part_1-SCHEMATIC1-Sim_Part_1.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\installation root\orcad 9.2\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20 0 0.1 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ec_project_3_part_1-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ec_project_3_part_1-SCHEMATIC1.net ****
+* source EC_PROJECT_3_PART_1
+R_R4         0 N00081  2  
+R_R5         N00299 N00179  10  
+E_E1         N00299 0 N00081 0 3
+I_I1         N00081 0 DC 0Adc AC 0Aac
++SIN 1 30 0.3183 0 0 0
+C_C1         N00081 N00179  0.2  
+L_L1         0 N00179  2  
+
+**** RESUMING ec_project_3_part_1-SCHEMATIC1-Sim_Part_1.sim.cir ****
+.END
+
+**** 02/07/21 10:44:00 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Sim_Part_1"  [ E:\Installation Root\Orcad 9.2\Projects\EC_Project_3_Part_1\ec_project_3_part_1-SCHEMATIC1-Si
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)   -2.0000 (N00179)    0.0000 (N00299)   -6.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

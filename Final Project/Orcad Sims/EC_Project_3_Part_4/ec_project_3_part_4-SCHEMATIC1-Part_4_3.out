@@ -1,0 +1,349 @@
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ec_project_3_part_4-schematic1-part_4_3.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\installation root\orcad 9.2\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.STEP LIN PARAM R1 1 10 1 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ec_project_3_part_4-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ec_project_3_part_4-SCHEMATIC1.net ****
+* source EC_PROJECT_3_PART_4
+R_R4         0 N00081  {R1}  
+R_R5         N00299 N00179  4  
+E_E1         N00299 0 N00081 0 3
+C_C1         N00081 N00179  0.2  
+L_L1         0 N00179  2  
+V_V1         N00081 0  
++SIN 1 30 0.31847133 0 0 0
+.PARAM  R1=1
+
+**** RESUMING ec_project_3_part_4-schematic1-part_4_3.sim.cir ****
+.END
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =    1     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.000E+00
+
+    TOTAL POWER DISSIPATION   1.00E+00  WATTS
+
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =    2     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.000E-01
+
+    TOTAL POWER DISSIPATION   5.00E-01  WATTS
+
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =    3     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -3.333E-01
+
+    TOTAL POWER DISSIPATION   3.33E-01  WATTS
+
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =    4     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.500E-01
+
+    TOTAL POWER DISSIPATION   2.50E-01  WATTS
+
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =    5     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.000E-01
+
+    TOTAL POWER DISSIPATION   2.00E-01  WATTS
+
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =    6     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.667E-01
+
+    TOTAL POWER DISSIPATION   1.67E-01  WATTS
+
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =    7     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.429E-01
+
+    TOTAL POWER DISSIPATION   1.43E-01  WATTS
+
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =    8     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.250E-01
+
+    TOTAL POWER DISSIPATION   1.25E-01  WATTS
+
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =    9     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.111E-01
+
+    TOTAL POWER DISSIPATION   1.11E-01  WATTS
+
+
+**** 02/07/21 17:28:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Part_4_3"  [ e:\installation root\orcad 9.2\projects\ec_project_3_part_4\ec_project_3_part_4-schematic1-part
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM R1 =   10    
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00081)    1.0000 (N00179)    0.0000 (N00299)    3.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.000E-01
+
+    TOTAL POWER DISSIPATION   1.00E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .08
+
